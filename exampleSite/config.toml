@@ -91,13 +91,9 @@ googleAnalytics = ""
     title = "One more thing"
     description = "
     I am writing in the following sites:
-
-    [Plant Genetics Paper Digest](https://plantgenetic.netlify.app/)
-
-    [RNA-Sick](https://RNA-Sick.me)
-
+    * [Plant Genetics Paper Digest](https://plantgenetic.netlify.app/)
+    * [RNA-Sick](https://RNA-Sick.me)
     Also check out my affiliate [links](https://bendjamin.vercel.app/posts/Links)!
-
     "
     # the picture is stored at static/images/
     picture = "pic03.jpg"
