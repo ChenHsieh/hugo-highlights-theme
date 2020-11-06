@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://www.example.com"
+baseurl = "https://chsieh.netlify.app/"
 languageCode = "en-us"
-title = "Highlights"
+title = "Ben's personal website"
 theme = "hugo-highlights-theme"
 
 # Enter your tracking code to enable Google analytics
@@ -16,8 +16,8 @@ googleAnalytics = ""
 
   # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
-  name = "Your Name"
-  description = "Your Description"
+  name = "Chen Hsieh"
+  description = "I love root!"
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
@@ -40,16 +40,16 @@ googleAnalytics = ""
   # hero Section
   [params.hero]
     type = "hero"
-    title = "Highlights"
-    description = "a fun litte { responsive } single Pager by [HTML5UP](//html5up.net)"
-    buttontext = "begin"
+    title = "Chen Hsieh"
+    description = "Stay hungry; Stay foolish!"
+    buttontext = "Learn more about me"
 
   # about section
   [[params.block]]
     id = "about"
     type = "text"
     title = "Who am I"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    description = "Chen Hsieh combined self-taught programming skills and horticulture knowledge acquired from college to win prizes in agricultural start-up competitions in Taiwan and attracted interests from venture capitalists. However, he quitted all the projects and focused on the graduate study to gain a more solid foundation of knowledge. He received MSc in horticultural crop science from National Taiwan University in 2019 (GPA:4.17, ranking: 2/32) and will pursue a Ph.D. in the USA. His research interests focused on bioinformatics, plant physiology, and biotechnology. "
     buttontext = "next"
     # the picture is stored at static/images/
     picture = "pic01.jpg"
@@ -59,37 +59,46 @@ googleAnalytics = ""
     id = "skills"
     type = "list"
     title = "Stuff I do"
-    description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
+    description = "Root digging ninja since 1994. Typing keyboard for a living."
     buttontext = "next"
     # the picture is stored at static/images/
     picture = "pic02.jpg"
 
     [[params.block.item]]
       icontype = "fas"
-      icon = "fa-camera-retro"
-      title = "Magna Etiam"
+      icon = "fa-dna"
+      title = "Biotechnology certification"
 
     [[params.block.item]]
       icontype = "fas"
-      icon = "fa-pencil-alt"
-      title = "Lorem Ipsum"
+      icon = "fa-seedling"
+      title = "Food security"
 
     [[params.block.item]]
       icontype = "fas"
-      icon = "fa-code"
-      title = "Nulla Tempus"
+      icon = "fa-guitars"
+      title = "Shredder"
 
     [[params.block.item]]
       icontype = "fas"
       icon = "fa-coffee"
-      title = "Sed Feugiat"
+      title = "Morning Brew"
 
   # infos section
   [[params.block]]
     id = "infos"
     type = "text"
     title = "One more thing"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    description = "
+    I am writing in the following sites:
+
+    [Plant Genetics Paper Digest](https://plantgenetic.netlify.app/)
+
+    [RNA-Sick](https://RNA-Sick.me)
+
+    Also check out my affiliate [links](https://bendjamin.vercel.app/posts/Links)!
+
+    "
     # the picture is stored at static/images/
     picture = "pic03.jpg"
 
@@ -104,17 +113,17 @@ googleAnalytics = ""
 #    picture = "pic04.jpg"
 
   # contact form
-  [[params.block]]
-    id = "contact"
-    type = "contact"
-    title = "Get in Touch"
-    picture = "pic05.jpg"
-
-    [params.block.form]
-      name = "Name"
-      email = "Your Email"
-      message = "Your Message"
-      buttontext = "send message"
+  # [[params.block]]
+  #   id = "contact"
+  #   type = "contact"
+  #   title = "Get in Touch"
+  #   picture = "pic05.jpg"
+  #
+  #   [params.block.form]
+  #     name = "Name"
+  #     email = "Your Email"
+  #     message = "Your Message"
+  #     buttontext = "send message"
 
   # footer section
   # this section includes last block and social icons
@@ -129,27 +138,17 @@ googleAnalytics = ""
       [[params.footer.social]]
         title = "Twitter"
         icon = "fa-twitter"
-        link = "#"
+        link = "https://twitter.com/ChenHsieh0"
 
       [[params.footer.social]]
-        title = "Facebook"
-        icon = "fa-facebook"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Instagramm"
-        icon = "fa-instagram"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Dribbble"
-        icon = "fa-dribbble"
-        link = "#"
+        title = "Github"
+        icon = "fa-github"
+        link = "https://github.com/ChenHsieh"
 
       [[params.footer.social]]
         title = "Email"
         icon = "fa-envelope"
-        link = "#"
+        link = "chenhsieh@protonmail.com"
 
     # copyright
     #[params.footer.copyright.notice]
@@ -158,7 +157,7 @@ googleAnalytics = ""
         text = "© Untitled"
 
       [[params.footer.copyright.notice]]
-        text = "Design: [HTML5UP](//html5up.net)"
+        text = "Content: Chen (Benjamin) Hsieh"
 
       [[params.footer.copyright.notice]]
-        text = "Demo Images: [Unsplash](//unsplash.com/)"
+        text = "Design: [HTML5UP](//html5up.net)"
