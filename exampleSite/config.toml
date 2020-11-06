@@ -67,7 +67,7 @@ googleAnalytics = ""
     [[params.block.item]]
       icontype = "fas"
       icon = "fa-dna"
-      title = "Biotechnology certification"
+      title = "Biotechnology"
 
     [[params.block.item]]
       icontype = "fas"
