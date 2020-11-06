@@ -89,8 +89,7 @@ googleAnalytics = ""
     id = "infos"
     type = "text"
     title = "One more thing"
-    description = "
-    I am writing in the following sites:
+    description = "I am writing in the following sites:
     * [Plant Genetics Paper Digest](https://plantgenetic.netlify.app/)
     * [RNA-Sick](https://RNA-Sick.me)
     Also check out my affiliate [links](https://bendjamin.vercel.app/posts/Links)!
